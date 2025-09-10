@@ -10,3 +10,6 @@ def find_num_char(text):
         else:
             res[c] = 1
     return res
+
+def sort_dic(dic):
+    return sorted(dic.items(), key=lambda item: item[1], reverse=True)
